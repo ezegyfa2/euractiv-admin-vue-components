@@ -1,9 +1,9 @@
 export default {
-    "template_type_name": "blue_admin_layout",
+    "template_type_name": "euractiv_admin_layout",
     "params": {
         "content_sections": [
             {
-                "type": "blue-admin-table",
+                "type": "euractiv-admin-table",
                 "data": "++table_data"
             }
         ]

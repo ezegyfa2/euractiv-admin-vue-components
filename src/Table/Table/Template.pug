@@ -1,0 +1,39 @@
+.container-fluid
+    .card.o-hidden.border-0.mb-4
+        .card-header.card-header-bg.py-3
+            h6.m-0.font-weight-bold.text-uppercase {{ title }}
+        .d-flex.card-body-header.p-3
+            .col-sm-12.col-md-6.p-0
+                label
+                    p Showh
+                    blue-admin-table-select(
+                        v-bind:value.sync='selected_row_to_show_count'
+                        v-bind:options='row_to_show_counts'
+                        v-bind:live_search='false'
+                        name='row_to_show_count'
+                    )
+                    p entries
+            .col-sm-12.col-md-6.p-0.create_button_container
+                euractiv-admin-create-button(
+                    content='Create'
+                    icon_class='fas fa-plus'
+                    v-bind:url='createUrl'
+                )
+        .card-body
+            euractiv-admin-table-with-edit-buttons(
+                v-bind:column_names='column_names'
+                v-bind:rows='rows'
+                v-bind:with_footer='true'
+                v-bind:filter_sections='filter_sections'
+                v-bind:filter_form_item_type_prefix='filter_form_item_type_prefix'
+                v-on:update:filter_sections='refreshDataWithAjax'
+            ) 
+            .row.row-cols-auto
+                .col-sm-12.col-md-12.extra-margin.col-lg-5
+                    .dataTables_info(role='status' aria-live='polite') {{ description }}
+                .col-sm-12.col-md-12.col-lg-7
+                    euractiv-admin-pagination(
+                        v-bind:page_count='pageCount' 
+                        v-bind:selected_page_number.sync='selected_page_number'
+                        v-bind:url_enabled='false'
+                    )

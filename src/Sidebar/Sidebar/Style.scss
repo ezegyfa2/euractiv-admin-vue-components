@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+
+.sidebar-bg-gradient {
+    background: white;
+    font-family: $primary-font-family;
+}
+
+.sidebar-brand, .sidebar-heading {
+    color: $primary-color;
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+hr.sidebar-divider {
+    border-top: 1px solid $primary-color;
+}
+
+.sidebar {
+    background-color: $third-color;
+    border-right: $secondary-color 1px solid;
+    &.toggled {
+    
+        #sidebarToggle::after {
+            color: $primary-color;
+            opacity: 0.5;
+        }
+    }
+}
+
+#sidebarToggle {
+    background-color: $primary-color;
+
+    &::after {
+        color: $primary-color;
+        opacity: 0.5;
+    }
+
+    &:hover {
+        background-color: $third-color;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}

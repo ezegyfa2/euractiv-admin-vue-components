@@ -1,14 +1,11 @@
 export default {
-    "type": "blue-admin-page",
+    "type": "euractiv-admin-page",
     "data": {
         "sidebar_section": {
-            "template_type_name": "blue_admin_sidebar",
+            "template_type_name": "euractiv_admin_sidebar",
             "params": {
                 "sidebar_sections": "-++sidebar_sections"
             }
-        },
-        "navigation_bar_section": {
-            "type": "blue-admin-navigation-bar"
         },
         "content_sections": [
             {
