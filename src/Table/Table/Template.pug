@@ -1,11 +1,11 @@
 .container-fluid
     .card.o-hidden.border-0.mb-4
         .card-header.card-header-bg.py-3
-            h6.m-0.font-weight-bold.text-uppercase {{ title }}
+            h6.m-0.fw-bold.text-uppercase {{ title }}
         .d-flex.card-body-header.p-3
             .col-sm-12.col-md-6.p-0
                 label
-                    p Showh
+                    p Show
                     blue-admin-table-select(
                         v-bind:value.sync='selected_row_to_show_count'
                         v-bind:options='row_to_show_counts'

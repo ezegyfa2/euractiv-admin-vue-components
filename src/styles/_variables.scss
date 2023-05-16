@@ -1,4 +1,8 @@
-$primary-color: #36393d !default;
-$secondary-color: #dfdfdf !default;
-$third-color: rgba(84,181,213,0.05) !default;
-$primary-font-family: Georgia, "Times New Roman", Times, serif !default;
+$primary-color: #000 !default;
+$secondary-color: #ffc709 !default;
+$third-color: $primary-color !default;
+$primary-font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !default;
+
+$primary-bg-color: white;
+
+$light-color: white;

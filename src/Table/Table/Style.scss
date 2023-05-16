@@ -7,17 +7,20 @@ table {
 }
 
 .card-header-bg {
-    background-color: white;
+    background-color: $primary-bg-color;
 }
 
 .card-header {
     color: $primary-color;
-    box-shadow: 1px -8px 11px -11px rgba(0, 0, 0, 0.35) inset;
 }
 
 .card-body-header {
-    background-color: $third-color;
+    background-color: $secondary-color;
     border-bottom: 0.1rem solid $secondary-color;
+}
+
+label p {
+    color: $primary-color;
 }
 
 .active {

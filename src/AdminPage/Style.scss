@@ -1,5 +1,6 @@
 @import '../../../blue-admin-vue-components/src/AdminPage/Style.scss';
+@import '../styles/variables';
 
 .content-wrapper {
-    background-color: #fff;
+    background-color: $primary-bg-color;
 }

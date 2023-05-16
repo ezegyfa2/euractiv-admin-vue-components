@@ -1,7 +1,16 @@
 @import '../../styles/variables';
 
+table > thead {
+    background-color: $primary-color;
+    color: $light-color;
+}
+
 table, .table-bordered, .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
     padding: 0.8rem;
+}
+
+table > thead > tr > th:first-child .form-item.form-group {
+    width: 4rem;
 }
 
 .active {

@@ -4,12 +4,12 @@
     padding: 1rem;
     font-family: $primary-font-family;
     color: $primary-color;
-    background-color: #fff;
+    background-color: $primary-bg-color;
 }
 
 li.active {
     .page-link {
-        color: #fff;
+        color: $light-color;
         background-color: $primary-color;
         border-color: $primary-color;
     }

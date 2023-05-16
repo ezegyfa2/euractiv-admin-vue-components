@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 
 .sidebar-bg-gradient {
-    background: white;
+    background: $primary-bg-color;
     font-family: $primary-font-family;
 }
 
@@ -17,7 +17,7 @@ hr.sidebar-divider {
 }
 
 .sidebar {
-    background-color: $third-color;
+    background-color: $secondary-color;
     border-right: $secondary-color 1px solid;
     &.toggled {
     
