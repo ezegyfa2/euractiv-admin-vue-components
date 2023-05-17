@@ -1,14 +1,14 @@
 @import '../../styles/variables';
 
 .sidebar-bg-gradient {
-    background: $primary-bg-color;
+    background: $secondary-color;
     font-family: $primary-font-family;
 }
 
-.sidebar-brand, .sidebar-heading {
+.sidebar-brand, .sidebar-heading, .nav-item {
     color: $primary-color;
     &:hover {
-        color: $secondary-color;
+        color: $light-color;
     }
 }
 
@@ -37,7 +37,7 @@ hr.sidebar-divider {
     }
 
     &:hover {
-        background-color: $third-color;
+        background-color: $light-color;
     }
 
     &:focus {

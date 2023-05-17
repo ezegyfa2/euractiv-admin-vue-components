@@ -3,8 +3,7 @@
 .btn-create {
     color: $light-color;
     background-color: $primary-color;
-}
-
-.btn-create:hover {
-    color: $light-color;
+    &:hover {
+        color: $light-color;
+    }
 }
