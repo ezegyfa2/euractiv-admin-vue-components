@@ -1,0 +1,8 @@
+@import '../../styles/variables';
+
+.btn-order {
+    cursor: pointer;
+    &:hover {
+        color: $secondary-color;
+    }
+}

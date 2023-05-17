@@ -27,6 +27,13 @@ export default {
 		);
 
 		registerVueComponent(
+            'form-item-with-order',
+            require('./FilterFormItems/FormItemWithOrder/Component.vue').default,
+            Vue,
+            'euractiv-admin-vue-components/src/FilterFormItems/FormItemWithOrder/Component.vue'
+        );
+
+		registerVueComponent(
 			'euractiv-admin-sidebar',
 			require('./Sidebar/Sidebar/Component.vue').default,
 			Vue,
