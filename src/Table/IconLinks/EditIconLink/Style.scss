@@ -3,4 +3,7 @@
 
 .btn-edit {
     background-color: $secondary-color;
+    &:hover {
+        background-color: $secondary-color-lighter;
+    }
 }

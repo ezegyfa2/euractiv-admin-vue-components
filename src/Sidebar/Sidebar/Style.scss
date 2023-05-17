@@ -22,8 +22,7 @@ hr.sidebar-divider {
     &.toggled {
     
         #sidebarToggle::after {
-            color: $primary-color;
-            opacity: 0.5;
+            color: $primary-color-light;
         }
     }
 }
@@ -32,8 +31,7 @@ hr.sidebar-divider {
     background-color: $primary-color;
 
     &::after {
-        color: $primary-color;
-        opacity: 0.5;
+        color: $primary-color-light;
     }
 
     &:hover {

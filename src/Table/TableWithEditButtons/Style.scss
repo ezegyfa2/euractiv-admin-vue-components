@@ -9,8 +9,8 @@ table, .table-bordered, .table-bordered > tbody > tr > td, .table-bordered > tbo
     padding: 0.8rem;
 }
 
-table > thead > tr > th:first-child .form-item.form-group {
-    width: 4rem;
+table > thead > tr > th:first-child {
+    width: 7rem;
 }
 
 .active {

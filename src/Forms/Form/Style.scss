@@ -7,10 +7,9 @@
 button.btn-form {
     background-color: $primary-color;
     color: $light-color;
-}
-
-button.btn-form:hover {
-    opacity: 0.8;
+    &:hover {
+        background-color: $primary-color-lighter;
+    }
 }
 
 .form-item:last-child {
