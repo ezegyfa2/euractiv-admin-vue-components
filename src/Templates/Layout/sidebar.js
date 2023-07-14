@@ -5,7 +5,7 @@ export default {
             "type": "blue-admin-sidebar-brand-icon",
             "data": {
                 "url": "/",
-                "icon_class": "fas fa-laugh-wink",
+                "icon_class": "fa fa-star-half",
                 "content": "--admin.layout.sidebar.title"
             }
         },
